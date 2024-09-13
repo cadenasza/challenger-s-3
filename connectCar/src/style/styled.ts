@@ -1,18 +1,21 @@
 import styled from "styled-components";
 
 export const Header = styled.header`
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 15%;
+  height: 15vh;
   width: 100vw;
-  background-color: #333;
 
   a {
     position: relative;
     text-decoration: none;
     color: whitesmoke;
-    font-size: 2.3rem;
+    font-size: 1.6rem;
     font-weight: 600;
     display: flex;
     align-items: center;
@@ -33,7 +36,7 @@ export const Header = styled.header`
   }
 
   a:hover {
-    font-size: 2.4rem;
+    font-size: 2rem;
     transition: 0.3s;
   }
 
@@ -52,6 +55,7 @@ export const Header = styled.header`
     font-size: 4rem;
     font-weight: 400;
     font-style: normal;
+    text-shadow: 1px 1px 1px #000000;
   }
 
   #porto-porto {
