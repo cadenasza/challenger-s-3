@@ -5,9 +5,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.tsx";
 import Home from "./routes/Home/index.tsx";
 import NotFound from "./routes/NotFound/index.tsx";
-import Usuarios from "./routes/Usuarios/index.tsx";
-import Produtos from "./routes/Produtos/index.tsx";
-import EditarProdutos from "./routes/EditarProdutos/index.tsx";
+import DiagnosticarVeiculo from "./routes/DiagnosticarVeiculo/index.tsx";
+import SobreNos from "./routes/SobreNos/index.tsx";
+import SobreProjeto from "./routes/SobreProjeto/index.tsx";
 
 const routes = createBrowserRouter([
   {
