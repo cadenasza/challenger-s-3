@@ -16,9 +16,9 @@ const routes = createBrowserRouter([
     errorElement: <NotFound />,
     children: [
       { path: "/", element: <Home /> },
-      { path: "/usuarios", element: <Usuarios /> },
-      { path: "/produtos", element: <Produtos /> },
-      { path: "/editar/produtos/:id", element: <EditarProdutos /> },
+      { path: "/diagnosticar/veiculo", element: <DiagnosticarVeiculo /> },
+      { path: "/nos", element: <SobreNos /> },
+      { path: "/projeto", element: <SobreProjeto /> },
     ],
   },
 ]);

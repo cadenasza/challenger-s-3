@@ -1,9 +1,9 @@
+import { Header } from '../../style/styled';
 
-export default function Headerr() {
+export default function Cabecalho() {
   return (
     <Header>
-      <h1>API - GITHUB</h1>
-      <Menu />
+      <h1>ConnectCar</h1>
     </Header>
   );
 }
