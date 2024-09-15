@@ -115,3 +115,59 @@ export const HomeImagem = styled.div`
     text-shadow: 1px 1px 1px #000000;
   }
 `;
+
+export const HomeDiagnosticarVeiculo = styled.div`
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  height: 85vh;
+  background: linear-gradient(#00000063, #66c7ff13), #40a9e4;
+  color: whitesmoke;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .home-diagnosticar-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    align-items: center;
+    padding: 0 40vw 0 0;
+    justify-content: center;
+
+    background-image: url("../../public/img/construction.png");
+    background-repeat: no-repeat;
+    background-clip: inherit;
+    background-position: right;
+    background-size: 30%;
+
+    h1 {
+      font-size: 5rem;
+      font-weight: 400;
+      font-style: normal;
+    }
+    h2 {
+      font-size: 3rem;
+    }
+  }
+`;
+
+export const HomeSobreProjeto = styled.div`
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(#00000063, #66c7ff13),
+    url("../../public/img/we.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: whitesmoke;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const HomeSobreNos = styled.div``;
