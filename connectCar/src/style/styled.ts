@@ -1,5 +1,11 @@
 import styled from "styled-components";
 
+export const Body = styled.body`
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+`;
+
 export const Header = styled.header`
   font-family: "Poppins", sans-serif;
   font-weight: 300;
@@ -73,5 +79,15 @@ export const Header = styled.header`
 `;
 
 export const Footer = styled.footer`
-  background-color: #333;
+  background-color: #b7dff4;
+  border-radius: 10px 10px 0 0;
+  height: 20vh;
+  border-radius: 20px 20px 0px 0px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 `;
