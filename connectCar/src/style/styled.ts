@@ -1,11 +1,5 @@
 import styled from "styled-components";
 
-export const Body = styled.body`
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-`;
-
 export const Header = styled.header`
   font-family: "Poppins", sans-serif;
   font-weight: 300;
@@ -16,6 +10,7 @@ export const Header = styled.header`
   align-items: center;
   height: 15vh;
   width: 100vw;
+  position: fixed;
 
   a {
     position: relative;
@@ -90,4 +85,33 @@ export const Footer = styled.footer`
   display: flex;
   align-items: center;
   justify-content: space-around;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+`;
+
+export const HomeImagem = styled.div`
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(#7fccf8d5, #000000a1),
+    url("../../public/img/connectCar.png");
+  color: whitesmoke;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-size: 5rem;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Mansalva", sans-serif;
+    text-shadow: 1px 1px 1px #000000;
+  }
+  h2 {
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    text-shadow: 1px 1px 1px #000000;
+  }
 `;
