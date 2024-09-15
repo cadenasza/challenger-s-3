@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Header } from '../../style/styled';
+import { IoPerson } from "react-icons/io5";
+
 
 export default function Cabecalho() {
   return (
@@ -12,6 +14,7 @@ export default function Cabecalho() {
         <Link to="/diagnosticar/veiculo"><p>Diagnosticar Veículo</p></Link>
         <Link to="/nos"><p>Sobre Nós</p></Link>
         <Link to="/projeto"><p>Sobre o Projeto</p></Link>
+        <Link to="/login"><IoPerson /></Link>
       </div>
     </Header>
   );

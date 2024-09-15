@@ -6,7 +6,7 @@ export const Header = styled.header`
   font-style: normal;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 15vh;
   width: 100vw;
@@ -156,18 +156,73 @@ export const HomeDiagnosticarVeiculo = styled.div`
 `;
 
 export const HomeSobreProjeto = styled.div`
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
   width: 100vw;
-  height: 100vh;
+  height: 85vh;
   background-image: linear-gradient(#00000063, #66c7ff13),
     url("../../public/img/we.png");
   background-repeat: no-repeat;
   background-size: cover;
   color: whitesmoke;
+  text-align: center;
 
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 600;
+      letter-spacing: 0.1px;
+      font-style: normal;
+    }
+  }
+  p {
+    width: 40%;
+  }
 `;
 
-export const HomeSobreNos = styled.div``;
+export const HomeSobreNos = styled.div`
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  width: 100vw;
+  height: 85vh;
+  background-image: linear-gradient(#00000063, #66c7ff13),
+    url("../../public/img/we.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: whitesmoke;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 600;
+      letter-spacing: 0.1px;
+      font-style: normal;
+    }
+  }
+  p {
+    width: 40%;
+  }
+`;
