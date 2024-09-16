@@ -10,7 +10,7 @@ import SobreNos from "./routes/SobreNos/index.tsx";
 import SobreProjeto from "./routes/SobreProjeto/index.tsx";
 import SelecionarOpcaoCadastro from "./routes/SelecionarOpcaoCadastro/index.tsx";
 import EntrarConta from "./routes/EntrarConta/index.tsx";
-import CriarConta from "./routes/CriarConta/index.tsx";
+import CadastrarCliente from "./routes/CadastrarCliente/index.tsx";
 
 const routes = createBrowserRouter([
   {
@@ -24,7 +24,7 @@ const routes = createBrowserRouter([
       { path: "/projeto", element: <SobreProjeto /> },
       { path: "/cadastro", element: <SelecionarOpcaoCadastro /> },
       { path: "/entrar", element: <EntrarConta /> },
-      { path: "/criar", element: <CriarConta /> },
+      { path: "/cadastro/cliente", element: <CadastrarCliente /> },
     ],
   },
 ]);

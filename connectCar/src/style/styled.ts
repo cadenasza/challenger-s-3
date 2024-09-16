@@ -727,7 +727,7 @@ input {
 }
 `
 
-export const HomeCriarConta = styled.div`
+export const HomeCadastrarClientes = styled.div`
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -740,7 +740,7 @@ export const HomeCriarConta = styled.div`
   align-items: center;
   justify-content: center;
 
-  .div-principal-criar-conta{
+  .div-principal-cadastro-cliente{
   display: flex;
   flex-direction: column;
   border-radius: 15px;
@@ -886,4 +886,4 @@ input {
   height: 100px;
   width: 100px;
 }
-`
+`;

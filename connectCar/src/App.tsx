@@ -10,9 +10,9 @@ export default function App() {
 
   return (
     <div>
-      {currentPath!== "/cadastro" && currentPath!== "/entrar" && currentPath!== "/criar"?<Cabecalho />:null}
+      {currentPath!== "/cadastro" && currentPath!== "/entrar" && currentPath!== "/cadastro/cliente"?<Cabecalho />:null}
       <Outlet />
-      {currentPath!=="/" && currentPath!== "/cadastro" && currentPath!== "/entrar" && currentPath!== "/criar"?<Rodape />:null} 
+      {currentPath!=="/" && currentPath!== "/cadastro" && currentPath!== "/entrar" && currentPath!== "/cadastro/cliente"?<Rodape />:null} 
     </div>
   );
 }

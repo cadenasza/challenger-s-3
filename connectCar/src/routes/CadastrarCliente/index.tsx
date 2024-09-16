@@ -1,12 +1,12 @@
 import { IoMdArrowRoundBack } from "react-icons/io";
-import { HomeCriarConta } from "../../style/styled";
+import { HomeCadastrarClientes } from "../../style/styled";
 import { FaCamera } from "react-icons/fa";
 
-export default function CriarConta() {
+export default function CadastrarCliente() {
   return (
     <main>
-        <HomeCriarConta>
-        <div className="div-principal-criar-conta">
+        <HomeCadastrarClientes>
+        <div className="div-principal-cadastro-cliente">
         <div className="header-main-container">
         <h1>Cadastro Cliente</h1>
         <div className="div-a-container">
@@ -51,7 +51,7 @@ export default function CriarConta() {
         </div>
       </section>
       </div>
-      </HomeCriarConta>
+      </HomeCadastrarClientes>
     </main>
   )
 };
