@@ -22,7 +22,7 @@ const routes = createBrowserRouter([
       { path: "/nos", element: <SobreNos /> },
       { path: "/projeto", element: <SobreProjeto /> },
       { path: "/cadastro", element: <SelecionarOpcaoCadastro /> },
-      { path: "/Criar/conta", element: <CriarConta /> },
+      { path: "/criar", element: <CriarConta /> },
     ],
   },
 ]);
