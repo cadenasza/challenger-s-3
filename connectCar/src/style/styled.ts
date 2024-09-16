@@ -71,6 +71,48 @@ export const Header = styled.header`
     display: flex;
     gap: 3vw;
   }
+
+  .menu-burguer {
+    display: none;
+  }
+
+  @media (max-width: 1300px) {
+    .header-content-container {
+      display: none;
+    }
+
+    .header-content-container.open {
+      display: flex;
+      flex-direction: column;
+      background-color: black;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 9999;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .menu-burguer {
+      display: block;
+      font-size: 4rem;
+      color: whitesmoke;
+      cursor: pointer;
+    }
+    .menu-burguer:hover {
+      font-size: 5rem;
+      color: gainsboro;
+      transition: 0.3s;
+    }
+  }
+
+  @media (max-width: 800px) {
+    #porto-seguro {
+      font-size: 3rem;
+    }
+  }
 `;
 
 export const Footer = styled.footer`
@@ -163,6 +205,20 @@ export const Footer = styled.footer`
     font-weight: 400;
     font-style: normal;
   }
+
+  @media (max-width: 997px) {
+    .endereco {
+      display: none;
+    }
+
+    .social-media {
+      display: none;
+    }
+
+    .footer-content-container {
+      width: 100%;
+    }
+  }
 `;
 
 export const HomeImagem = styled.div`
@@ -188,6 +244,27 @@ export const HomeImagem = styled.div`
     font-size: 2rem;
     font-family: "Poppins", sans-serif;
     text-shadow: 1px 1px 1px #000000;
+  }
+
+  @media (max-width: 800px) {
+    #porto-seguro {
+      font-size: 3rem;
+    }
+    h1 {
+      font-size: 3rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+
+  @media (max-width: 500px) {
+    h1 {
+      font-size: 3rem;
+    }
+    h2 {
+      font-size: 1rem;
+    }
   }
 `;
 
@@ -228,41 +305,44 @@ export const HomeDiagnosticarVeiculo = styled.div`
       font-size: 3rem;
     }
   }
-`;
 
-export const HomeSobreProjeto = styled.div`
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  width: 100vw;
-  height: 85vh;
-  background-image: linear-gradient(#00000063, #66c7ff13),
-    url("../../public/img/we.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: whitesmoke;
-  text-align: center;
+  @media (max-width: 1300px) {
+    .home-diagnosticar-container {
+      width: 100%;
+      padding: 0;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+      background-image: url("../../public/img/construction.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 50%;
 
-  div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-
-    h1 {
-      font-size: 3rem;
-      font-weight: 600;
-      letter-spacing: 0.1px;
-      font-style: normal;
+      h1 {
+        font-size: 3rem;
+        text-shadow: 1px 1px 1px #000000;
+      }
+      h2 {
+        font-size: 2rem;
+        text-shadow: 1px 1px 1px #000000;
+      }
     }
   }
-  p {
-    width: 40%;
+
+  @media (max-width: 650px) {
+    .home-diagnosticar-container {
+      width: 100%;
+      padding: 0;
+
+      background-image: none;
+
+      h1 {
+        font-size: 1.5rem;
+        text-shadow: 1px 1px 1px #000000;
+      }
+      h2 {
+        font-size: 1rem;
+        text-shadow: 1px 1px 1px #000000;
+      }
+    }
   }
 `;
 
@@ -299,5 +379,79 @@ export const HomeSobreNos = styled.div`
   }
   p {
     width: 40%;
+  }
+
+  @media (max-width: 1300px) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (max-width: 800px) {
+    div {
+      h1 {
+        font-size: 1.5rem;
+      }
+      h2 {
+        font-size: 1rem;
+      }
+    }
+    p {
+      width: 90%;
+    }
+  }
+`;
+
+export const HomeSobreProjeto = styled.div`
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  width: 100vw;
+  height: 85vh;
+  background-image: linear-gradient(#00000063, #66c7ff13),
+    url("../../public/img/we.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: whitesmoke;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 600;
+      letter-spacing: 0.1px;
+      font-style: normal;
+    }
+  }
+  p {
+    width: 40%;
+  }
+
+  @media (max-width: 1300px) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  @media (max-width: 800px) {
+    div {
+      h1 {
+        font-size: 1.5rem;
+      }
+      h2 {
+        font-size: 1rem;
+      }
+    }
+    p {
+      width: 90%;
+    }
   }
 `;
