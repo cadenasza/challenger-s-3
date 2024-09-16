@@ -11,6 +11,7 @@ import SobreProjeto from "./routes/SobreProjeto/index.tsx";
 import SelecionarOpcaoCadastro from "./routes/SelecionarOpcaoCadastro/index.tsx";
 import EntrarConta from "./routes/EntrarConta/index.tsx";
 import CadastrarCliente from "./routes/CadastrarCliente/index.tsx";
+import CriarConta from "./routes/CriarConta/index.tsx";
 
 const routes = createBrowserRouter([
   {
@@ -25,6 +26,7 @@ const routes = createBrowserRouter([
       { path: "/cadastro", element: <SelecionarOpcaoCadastro /> },
       { path: "/entrar", element: <EntrarConta /> },
       { path: "/cadastro/cliente", element: <CadastrarCliente /> },
+      { path: "/criar", element: <CriarConta/> },
     ],
   },
 ]);

@@ -887,3 +887,144 @@ input {
   width: 100px;
 }
 `;
+
+export const HomeCriarConta = styled.div`
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  background-color: #f2f9ff;
+  display: flex;
+  height: 100vh;
+
+  a {
+  text-decoration: none;
+  color: black;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 800px;
+  background-color: #40a9e4;
+  border-radius: 15px;
+
+  justify-content: space-around;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.input-container-login {
+  display: flex;
+  flex-direction: column;
+}
+
+.cadastro-container {
+  width: 50%;
+  background-color: #40a9e4;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5vh;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+
+.no-account-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 1.2rem;
+}
+
+.p-create-account {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.p-create-account:hover {
+  font-weight: bold;
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+
+.div-form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+label {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.input-container-login {
+  width: 85%;
+  gap: 50px;
+}
+
+input {
+  height: 90px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 10px;
+  font-size: 1.8rem;
+}
+
+.select-account {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.div-label-input-container {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+
+.label-input-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.submit {
+  color: black;
+  width: 200px;
+  height: 50px;
+  background-color: #40a9e4;
+  border-radius: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+  box-shadow: 5px 5px 1px black;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.submit:hover {
+  transition: 0.3s;
+  width: 220px;
+  height: 60px;
+  background-color: #358fc4;
+}
+`;
