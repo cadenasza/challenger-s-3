@@ -10,9 +10,9 @@ export default function App() {
 
   return (
     <div>
-      <Cabecalho />
+      {currentPath!== "/cadastro"?<Cabecalho />:null}
       <Outlet />
-      {currentPath!=="/"?<Rodape />:null}
+      {currentPath!=="/" && currentPath!== "/cadastro"?<Rodape />:null} 
     </div>
   );
 }
