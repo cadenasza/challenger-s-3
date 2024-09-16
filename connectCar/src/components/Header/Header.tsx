@@ -32,7 +32,7 @@ export default function Cabecalho() {
         <Link to="/projeto" onClick={closeMenu}>
           <p>Sobre o Projeto</p>
         </Link>
-        <Link to="/login" onClick={closeMenu}>
+        <Link to="/entrar" onClick={closeMenu}>
           <p>
             <IoPerson />
           </p>
