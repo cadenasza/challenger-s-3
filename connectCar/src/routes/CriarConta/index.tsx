@@ -1,6 +1,8 @@
+
+import { Link } from "react-router-dom";
 import { HomeCriarConta } from "../../style/styled";
 
-export default function CriarConta() {
+export default function CriarContas() {
   return (
     <main>
         <HomeCriarConta>
@@ -8,7 +10,7 @@ export default function CriarConta() {
         <h1>Cadastre-se e conheça a nossa plataforma</h1>
         <div className="no-account-container">
           <p>Já tem uma conta?</p>
-          <a href="#"> <p className="p-create-account">Entrar</p></a>
+          <Link to={"/entrar"}><p className="p-create-account">Entrar</p></Link>
         </div>
       </div>
       <div className="form-container">

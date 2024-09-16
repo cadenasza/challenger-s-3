@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { HomeEntrarConta } from "../../style/styled";
 
 export default function EntrarConta() {
@@ -22,9 +23,9 @@ export default function EntrarConta() {
                 className="input"
               />
               <div className="select-account">
-                <a href="./forgot.html">
+                <Link to={"/"}>
                   <p className="p-create-account">Esqueci minha senha</p>
-                </a>
+                </Link>
                 <div className="div-label-input-container">
                   <div className="label-input-container">
                     <input
@@ -57,8 +58,8 @@ export default function EntrarConta() {
         <h1>Cadastre-se e conheça a nossa plataforma</h1>
         <div className="no-account-container">
           <p>Não tem uma conta?</p>
-          <a href="../CriarConta">
-            <p className="p-create-account">Criar uma Conta</p></a>
+          <Link to={"/criar"}>
+            <p className="p-create-account">Criar uma Conta</p></Link>
         </div>
       </div>
       </HomeEntrarConta>

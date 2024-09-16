@@ -683,47 +683,6 @@ input {
   width: 220px;
   height: 60px;
   background-color: #358fc4;
-
-  @media (max-width: 1199px) {
-  body {
-    background-color: whitesmoke;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  main {
-    gap: 50px;
-    width: 95%;
-    height: 95%;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    background-color: #40a9e4;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  }
-
-  .form-container {
-    height: 50%;
-    width: 100%;
-  }
-  .cadastro-container {
-    width: 100%;
-  }
-}
-@media (max-width: 991px) {
-  h1 {
-    font-size: 2rem;
-  }
-}
-@media (max-width: 767px) {
-  .form {
-    width: 100%;
-  }
-}
 }
 `
 
@@ -899,7 +858,7 @@ export const HomeCriarConta = styled.div`
   a {
   text-decoration: none;
   color: black;
-}
+  }
 
 .form-container {
   display: flex;
