@@ -455,3 +455,44 @@ export const HomeSobreProjeto = styled.div`
     }
   }
 `;
+
+
+export const PagCadastrarVeiculo = styled.div`
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  background-color: #f2f9ff;
+  height: 100vh;
+  width: 100vw;
+    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  main {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: #40a9e4;
+    height: 92%;
+    width: 95%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .arrow-left {
+    <img src="../../public/img/arrow.png" alt="arrow"/>
+    height: 40px;
+  }
+  
+  .p-back {
+    font-size: 2.3rem;
+    font-weight: 500;
+  }
+
+
+
+
+`;

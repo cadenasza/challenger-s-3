@@ -9,6 +9,7 @@ import DiagnosticarVeiculo from "./routes/DiagnosticarVeiculo/index.tsx";
 import SobreNos from "./routes/SobreNos/index.tsx";
 import SobreProjeto from "./routes/SobreProjeto/index.tsx";
 
+
 const routes = createBrowserRouter([
   {
     path: "/",
@@ -16,9 +17,10 @@ const routes = createBrowserRouter([
     errorElement: <NotFound />,
     children: [
       { path: "/", element: <Home /> },
-      { path: "/diagnosticar/veiculo", element: <DiagnosticarVeiculo /> },
+      { path: "/diagnosticar/veiculo", element: <DiagnosticarVeiculo/> },
       { path: "/nos", element: <SobreNos /> },
       { path: "/projeto", element: <SobreProjeto /> },
+
     ],
   },
 ]);
