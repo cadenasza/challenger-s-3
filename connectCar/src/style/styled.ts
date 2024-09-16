@@ -74,6 +74,9 @@ export const Header = styled.header`
 `;
 
 export const Footer = styled.footer`
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
   background-color: #b7dff4;
   border-radius: 10px 10px 0 0;
   height: 20vh;
@@ -88,6 +91,78 @@ export const Footer = styled.footer`
   width: 100vw;
   position: fixed;
   bottom: 0;
+
+  .social-media {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+
+    .social-media-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1vw;
+    }
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  a::before {
+    background-color: black;
+  }
+
+  .logo-team {
+    display: flex;
+  }
+
+  .endereco {
+    width: 10vw;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .footer-content-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 5%;
+  }
+
+  a:hover {
+    font-size: 2.4rem;
+    transition: 0.3s;
+  }
+
+  a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+
+  .copyright {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+  }
+
+  .porto-text {
+    display: flex;
+    font-family: "Mansalva", sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: normal;
+  }
 `;
 
 export const HomeImagem = styled.div`
