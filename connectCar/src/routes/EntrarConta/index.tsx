@@ -1,9 +1,9 @@
-import { HomeCriarConta } from "../../style/styled";
+import { HomeEntrarConta } from "../../style/styled";
 
-export default function CriarConta() {
+export default function EntrarConta() {
   return (
     <main>
-        <HomeCriarConta>
+        <HomeEntrarConta>
         <div className="form-container">
         <form action="" className="form">
           <h2>Entre na sua conta</h2>
@@ -57,11 +57,11 @@ export default function CriarConta() {
         <h1>Cadastre-se e conheça a nossa plataforma</h1>
         <div className="no-account-container">
           <p>Não tem uma conta?</p>
-          <a href="./register.html">
+          <a href="../CriarConta">
             <p className="p-create-account">Criar uma Conta</p></a>
         </div>
       </div>
-      </HomeCriarConta>
+      </HomeEntrarConta>
     </main>
   )
 };

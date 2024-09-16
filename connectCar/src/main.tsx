@@ -9,7 +9,7 @@ import DiagnosticarVeiculo from "./routes/DiagnosticarVeiculo/index.tsx";
 import SobreNos from "./routes/SobreNos/index.tsx";
 import SobreProjeto from "./routes/SobreProjeto/index.tsx";
 import SelecionarOpcaoCadastro from "./routes/SelecionarOpcaoCadastro/index.tsx";
-import CriarConta from "./routes/CriarConta/index.tsx";
+import EntrarConta from "./routes/EntrarConta/index.tsx";
 
 const routes = createBrowserRouter([
   {
@@ -22,7 +22,7 @@ const routes = createBrowserRouter([
       { path: "/nos", element: <SobreNos /> },
       { path: "/projeto", element: <SobreProjeto /> },
       { path: "/cadastro", element: <SelecionarOpcaoCadastro /> },
-      { path: "/criar", element: <CriarConta /> },
+      { path: "/entrar", element: <EntrarConta /> },
     ],
   },
 ]);
