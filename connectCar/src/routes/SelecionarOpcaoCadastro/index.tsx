@@ -8,7 +8,7 @@ export default function SelecionarOpcaoCadastro() {
         <PrincipalSelecionar>
             <div className="principal">
             <div className="voltar">
-                <a href=".././Home"><IoMdArrowRoundBack /></a>
+                <a href=".././Home"><IoMdArrowRoundBack /> Voltar</a>
             </div>
             <div className="div-container">
                 <h1>Selecione uma opção para registrar</h1>
