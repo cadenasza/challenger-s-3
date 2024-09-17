@@ -1,6 +1,7 @@
 import { IoMdArrowRoundBack } from "react-icons/io";
 import { HomeCadastrarClientes } from "../../style/styled";
 import { FaCamera } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export default function CadastrarCliente() {
   return (
@@ -10,7 +11,7 @@ export default function CadastrarCliente() {
         <div className="header-main-container">
         <h1>Cadastro Cliente</h1>
         <div className="div-a-container">
-          <a href="#"><IoMdArrowRoundBack /> Voltar</a>
+          <Link to={"/"}><IoMdArrowRoundBack /> Voltar</Link>
         </div>
       </div>
 
@@ -44,8 +45,6 @@ export default function CadastrarCliente() {
               >Imagem de Perfil:</label>
               </div>
             <FaCamera className="cam-icon-input" />
-              
-            
           </div>
             <button className="submit">Continuar</button>
         </div>

@@ -1,9 +1,11 @@
 import { IoMdArrowRoundBack } from "react-icons/io";
 import { Link } from "react-router-dom";
+import { HomeCadastroMecanico } from "../../style/styled";
+import { FaCamera } from "react-icons/fa";
 
 export default function CadastrarMecanico() {
   return (
-    <div>
+    <HomeCadastroMecanico>
         <main>
       <div className="header-main-container">
         <h1>Cadastro Mecânico</h1>
@@ -11,7 +13,7 @@ export default function CadastrarMecanico() {
           <a href="./choose.html">
           <Link to={"/"}> <IoMdArrowRoundBack className="arrow-left" /> </Link>
             <p className="p-back">Voltar</p>
-          </a>
+          </a >
         </div>
       </div>
 
@@ -40,18 +42,16 @@ export default function CadastrarMecanico() {
             <input type="number" id="cnh" name="cnh" />
           </div>
           <div className="div-form-container" id="cam-container">
+            <div>
             <label className="profile-image-label"
               >Imagem de Perfil:</label>
-            <img
-              src="../imgs/cam.png"
-              alt="cam-icon"
-              className="cam-icon-input"
-            />
+              </div>
+            <FaCamera className="cam-icon-input" />
           </div>
             <button className="submit">Cadastrar</button>
         </div>
       </section>
     </main>
-    </div>
+    </HomeCadastroMecanico>
   )
 }
