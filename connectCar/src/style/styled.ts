@@ -987,3 +987,160 @@ input {
   background-color: #358fc4;
 }
 `;
+
+export const HomeCadastroVeiculo = styled.div`
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  background-color: #f2f9ff;
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  main{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: #40a9e4;
+    height: 92%;
+    width: 95%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  .header-main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.div-a-container {
+  display: flex;
+  justify-content: end;
+  padding: 50px;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  gap: 12px;
+  width: 170px;
+}
+
+.arrow-left {
+  height: 40px;
+}
+
+.p-back {
+  font-size: 2.3rem;
+  font-weight: 500;
+}
+
+.div-container {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  text-align: center;
+  width: 50%;
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10vw;
+}
+
+.submit {
+  color: black;
+  width: 200px;
+  height: 50px;
+  background-color: #40a9e4;
+  border-radius: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+  box-shadow: 5px 5px 1px black;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.submit:hover {
+  transition: 0.3s;
+  width: 220px;
+  height: 60px;
+  background-color: #358fc4;
+}
+
+.input-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 40%;
+  height: 90%;
+}
+
+.div-form-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+label {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+input {
+  height: 90px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 10px;
+  font-size: 1.8rem;
+}
+
+.profile-image-label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #000;
+}
+
+#profile-image {
+  font-size: 16px;
+}
+
+#cam-container {
+  background-color: white;
+  border-radius: 15px;
+}
+
+.cam-icon-input {
+  height: 100px;
+  width: 100px;
+}
+
+`
