@@ -10,10 +10,8 @@ export default function CadastrarMecanico() {
       <div className="header-main-container">
         <h1>Cadastro Mecânico</h1>
         <div className="div-a-container">
-          <a href="./choose.html">
-          <Link to={"/"}> <IoMdArrowRoundBack className="arrow-left" /> </Link>
+          <Link to={"/cadastro"}> <IoMdArrowRoundBack className="arrow-left" /> </Link>
             <p className="p-back">Voltar</p>
-          </a >
         </div>
       </div>
 

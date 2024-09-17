@@ -1447,4 +1447,148 @@ input {
   height: 60px;
   background-color: #358fc4;
 }
-`
+`;
+
+export const HomeIntegrantes = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  background-color: #f2f9ff;
+
+  width: 100vw;
+  height: 100vh;
+
+  main {
+  border-radius: 15px;
+
+  background-color: #40a9e4;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 95%;
+  height: 93%;
+}
+
+  .main-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    height: 15%;
+  }
+
+  .a-link {
+    display: flex;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+  }
+  .arrow-left {
+    height: 40px;
+  }
+
+  .text-container {
+    display: flex;
+    font-family: "Mansalva", sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  #p-integrantes {
+    color: #2762ca;
+  }
+
+  #p-equipe {
+    color: whitesmoke;
+  }
+
+  .cards {
+    display: flex;
+    height: 85%;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 95%;
+    width: 30%;
+    border-radius: 15px;
+
+    background-color: #40a9e4;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  .card-container:hover {
+    height: 98%;
+    width: 35%;
+    transition: 0.4s;
+    background-color: #2691cf;
+  }
+
+  .img-people {
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  h1 {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+
+  .rm-turma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-rm-turma {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+
+  .submit {
+    color: black;
+    width: 200px;
+    height: 50px;
+    background-color: #40a9e4;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    box-shadow: 5px 5px 1px black;
+    font-size: 1.1rem;
+    font-weight: 300;
+  }
+
+  .submit:hover {
+    transition: 0.3s;
+    width: 220px;
+    height: 60px;
+    background-color: #358fc4;
+  }
+
+  .button-leo-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+`;
