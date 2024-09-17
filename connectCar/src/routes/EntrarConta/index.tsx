@@ -20,10 +20,9 @@ export default function EntrarConta() {
                 type="password"
                 id="password"
                 name="password"
-                className="input"
-              />
+                className="input"/>
               <div className="select-account">
-                <Link to={"/"}>
+                <Link to={"/esqueceu/senha"}>
                   <p className="p-create-account">Esqueci minha senha</p>
                 </Link>
                 <div className="div-label-input-container">

@@ -12,7 +12,7 @@ export default function App() {
     <div>
       {currentPath!== "/cadastro" && currentPath!== "/entrar" && currentPath!== "/cadastro/cliente" && currentPath!== "/criar" && currentPath!== "/cadastro/veiculo" && currentPath!== "/cadastro/mecanico"?<Cabecalho />:null}
       <Outlet />
-      {currentPath!=="/" && currentPath!== "/cadastro" && currentPath!== "/entrar" && currentPath!== "/cadastro/cliente" && currentPath!== "/criar" && currentPath!== "/cadastro/veiculo" && currentPath!== "/cadastro/mecanico"?<Rodape />:null} 
+      {currentPath!=="/" && currentPath!== "/cadastro" && currentPath!== "/entrar" && currentPath!== "/cadastro/cliente" && currentPath!== "/criar" && currentPath!== "/cadastro/veiculo" && currentPath!== "/cadastro/mecanico" && currentPath!== "/esqueceu/senha"?<Rodape />:null} 
     </div>
   );
 }

@@ -14,6 +14,7 @@ import CadastrarCliente from "./routes/CadastrarCliente/index.tsx";
 import CriarContas from "./routes/CriarConta/index.tsx";
 import CadastroVeiculo from "./routes/CadastroVeiculo/index.tsx";
 import CadastrarMecanico from "./routes/CadastrarMecanico/index.tsx";
+import EsqueceuSenha from "./routes/EsqueceuSenha/index.tsx";
 
 const routes = createBrowserRouter([
   {
@@ -31,6 +32,7 @@ const routes = createBrowserRouter([
       { path: "/criar", element: <CriarContas/> },
       { path: "/cadastro/veiculo", element: <CadastroVeiculo/> },
       { path: "/cadastro/mecanico", element: <CadastrarMecanico/> },
+      { path: "/esqueceu/Senha", element: <EsqueceuSenha/> },
     ],
   },
 ]);
