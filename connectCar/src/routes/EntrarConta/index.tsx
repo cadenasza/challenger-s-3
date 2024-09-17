@@ -3,8 +3,8 @@ import { HomeEntrarConta } from "../../style/styled";
 
 export default function EntrarConta() {
   return (
-    <main>
         <HomeEntrarConta>
+          <main>
         <div className="form-container">
         <form action="" className="form">
           <h2>Entre na sua conta</h2>
@@ -20,10 +20,9 @@ export default function EntrarConta() {
                 type="password"
                 id="password"
                 name="password"
-                className="input"
-              />
+                className="input"/>
               <div className="select-account">
-                <Link to={"/"}>
+                <Link to={"/esqueceu/senha"}>
                   <p className="p-create-account">Esqueci minha senha</p>
                 </Link>
                 <div className="div-label-input-container">
@@ -62,7 +61,7 @@ export default function EntrarConta() {
             <p className="p-create-account">Criar uma Conta</p></Link>
         </div>
       </div>
+      </main>
       </HomeEntrarConta>
-    </main>
   )
 };

@@ -1,16 +1,17 @@
 import { IoMdArrowRoundBack } from "react-icons/io";
-import { HomeCadastrarClientes } from "../../style/styled";
-import { FaCamera } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { HomeCadastroMecanico } from "../../style/styled";
+import { FaCamera } from "react-icons/fa";
 
-export default function CadastrarCliente() {
+export default function CadastrarMecanico() {
   return (
-    <HomeCadastrarClientes>
-      <main>
-        <div className="header-main-container">
-        <h1>Cadastro Cliente</h1>
+    <HomeCadastroMecanico>
+        <main>
+      <div className="header-main-container">
+        <h1>Cadastro Mecânico</h1>
         <div className="div-a-container">
-          <Link to={"/"}><IoMdArrowRoundBack /> Voltar</Link>
+          <Link to={"/cadastro"}> <IoMdArrowRoundBack className="arrow-left" /> </Link>
+            <p className="p-back">Voltar</p>
         </div>
       </div>
 
@@ -45,10 +46,10 @@ export default function CadastrarCliente() {
               </div>
             <FaCamera className="cam-icon-input" />
           </div>
-            <button className="submit">Continuar</button>
+            <button className="submit">Cadastrar</button>
         </div>
       </section>
-      </main>
-      </HomeCadastrarClientes>
+    </main>
+    </HomeCadastroMecanico>
   )
-};
+}
