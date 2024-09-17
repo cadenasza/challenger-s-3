@@ -694,7 +694,48 @@ input {
   height: 60px;
   background-color: #358fc4;
 }
-`
+@media (max-width: 1199px) {
+  body {
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main {
+    gap: 50px;
+    width: 95%;
+    height: 95%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    background-color: #40a9e4;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .form-container {
+    height: 50%;
+    width: 100%;
+  }
+  .cadastro-container {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 767px) {
+  .form {
+    width: 100%;
+  }
+}
+
+`;
 
 export const HomeCadastrarClientes = styled.div`
   font-family: "Poppins", sans-serif;
@@ -855,6 +896,30 @@ input {
   height: 100px;
   width: 100px;
 }
+
+@media (max-width: 790px) {
+  body {
+    height: 120vh;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .div-a-container {
+    padding: 0;
+  }
+  main {
+    height: 100%;
+    width: 90%;
+  }
+  .input-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .inputs {
+    width: 90%;
+  }
+}
+
 `;
 
 export const HomeCriarConta = styled.div`
@@ -1000,6 +1065,47 @@ input {
   width: 220px;
   height: 60px;
   background-color: #358fc4;
+}
+
+@media (max-width: 1199px) {
+  body {
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main {
+    gap: 50px;
+    width: 95%;
+    height: 95%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #40a9e4;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .form-container {
+    height: 50%;
+    width: 100%;
+  }
+  .cadastro-container {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 767px) {
+  .form {
+    width: 100%;
+  }
 }
 `;
 
@@ -1157,6 +1263,30 @@ input {
   height: 100px;
   width: 100px;
 }
+@media (max-width: 790px) {
+  body {
+    height: 120vh;
+    width: 100%;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .div-a-container {
+    padding: 0;
+  }
+  main {
+    height: 100%;
+    width: 90%;
+  }
+  .input-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .inputs {
+    width: 90%;
+  }
+}
+
 `;
 
 export const HomeCadastroMecanico = styled.div`
@@ -1319,6 +1449,30 @@ input {
   width: 100px;
 }
 
+@media (max-width: 790px) {
+  body {
+    height: 120vh;
+    width: 100%;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .div-a-container {
+    padding: 0;
+  }
+  main {
+    height: 100%;
+    width: 90%;
+  }
+  .input-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .inputs {
+    width: 90%;
+  }
+}
+
 `;
 
 export const HomeEsqueceuSenha = styled.div`
@@ -1462,6 +1616,49 @@ input {
   height: 60px;
   background-color: #358fc4;
 }
+
+@media (max-width: 1199px) {
+  body {
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main {
+    gap: 50px;
+    width: 95%;
+    height: 95%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #40a9e4;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .form-container {
+    height: 50%;
+    width: 100%;
+  }
+  .cadastro-container {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 767px) {
+  .form {
+    width: 100%;
+  }
+}
+
+
 `;
 
 export const HomeIntegrantes = styled.div`
@@ -1606,4 +1803,44 @@ export const HomeIntegrantes = styled.div`
     gap: 10px;
     align-items: center;
   }
+
+
+  @media (max-width: 1199px) {
+  .main-header-container {
+    padding-bottom: 50px;
+  }
+  body {
+    height: auto;
+    width: 100%;
+  }
+  main {
+    height: 90%;
+  }
+  .cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  .card-container {
+    width: 80%;
+    height: 600px;
+  }
+  .card-container:hover {
+    width: 85%;
+    height: 610px;
+  }
+}
+
+@media (max-width: 856px) {
+  .button-leo-container {
+    flex-direction: column;
+  }
+  .text-container {
+    font-size: 2rem;
+  }
+  h1 {
+    font-size: 1.2rem;
+  }
+}
+
 `;
