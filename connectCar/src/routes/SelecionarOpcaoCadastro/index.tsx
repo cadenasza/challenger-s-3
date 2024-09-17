@@ -5,21 +5,19 @@ import { IoMdArrowRoundBack } from "react-icons/io";
 
 export default function SelecionarOpcaoCadastro() {
   return (
-    <main>
         <PrincipalSelecionar>
-            <div className="principal">
+          <main>
             <div className="voltar">
-               <Link to={"/"}><IoMdArrowRoundBack /> </Link>
+               <Link to={"/"}><IoMdArrowRoundBack /><p className="p-back">Voltar</p> </Link>
             </div>
             <div className="div-container">
                 <h1>Selecione uma opção para registrar</h1>
                 <div className="button-container">
-                    <button>Mecânico</button>
-                    <button>Cliente</button>
+                    <Link to={"/cadastro/mecanico"}><button>Mecânico</button></Link>
+                    <Link to={"/cadastro/cliente"}><button>Cliente</button></Link>
                 </div>
             </div>
-            </div>
+            </main>
         </PrincipalSelecionar>
-    </main>
   )
 }

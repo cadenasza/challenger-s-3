@@ -470,7 +470,7 @@ export const PrincipalSelecionar = styled.div`
   justify-content: center;
 
 
-  .principal{
+  main{
   display: flex;
   flex-direction: column;
   border-radius: 15px;
@@ -483,7 +483,7 @@ export const PrincipalSelecionar = styled.div`
   margin-left: 2rem;
   /* align-items: center;
   justify-content: center; */
-
+  }
   .voltar{
       display: flex;
       justify-content: end;
@@ -501,6 +501,12 @@ export const PrincipalSelecionar = styled.div`
       font-size: 2.3rem;
       font-weight: 500;
     }  
+
+  .p-back {
+    font-size: 2.3rem;
+    font-weight: 500;
+    }
+
   .div-container{
     width: 100%;
     height: 60%;
@@ -526,8 +532,8 @@ export const PrincipalSelecionar = styled.div`
 
   button{
     color: black;
-    width: 200px;
-    height: 50px;
+    width: 300px;
+    height: 75px;
     background-color: #40a9e4;
     border-radius: 10px;
     border: 1px solid black;
@@ -543,7 +549,7 @@ export const PrincipalSelecionar = styled.div`
     height: 60px;
     background-color: #358fc4;
   }  
-}
+
 `;
 
 export const HomeEntrarConta = styled.div`
@@ -551,8 +557,12 @@ export const HomeEntrarConta = styled.div`
   font-weight: 300;
   font-style: normal;
   background-color: #f2f9ff;
-  display: flex;
-  height: 100vh;
+  
+
+  main{
+    display: flex;
+    height: 100vh;
+  } 
 
   a{
     text-decoration: none;
@@ -699,7 +709,7 @@ export const HomeCadastrarClientes = styled.div`
   align-items: center;
   justify-content: center;
 
-  .div-principal-cadastro-cliente{
+  main{
   display: flex;
   flex-direction: column;
   border-radius: 15px;
@@ -852,8 +862,13 @@ export const HomeCriarConta = styled.div`
   font-weight: 300;
   font-style: normal;
   background-color: #f2f9ff;
-  display: flex;
-  height: 100vh;
+  
+  
+
+  main{
+    display: flex;
+    height: 100vh;
+  }
 
   a {
   text-decoration: none;

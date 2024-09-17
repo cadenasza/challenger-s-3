@@ -5,9 +5,8 @@ import { Link } from "react-router-dom";
 
 export default function CadastrarCliente() {
   return (
-    <main>
-        <HomeCadastrarClientes>
-        <div className="div-principal-cadastro-cliente">
+    <HomeCadastrarClientes>
+      <main>
         <div className="header-main-container">
         <h1>Cadastro Cliente</h1>
         <div className="div-a-container">
@@ -49,8 +48,7 @@ export default function CadastrarCliente() {
             <button className="submit">Continuar</button>
         </div>
       </section>
-      </div>
+      </main>
       </HomeCadastrarClientes>
-    </main>
   )
 };

@@ -4,8 +4,8 @@ import { HomeCriarConta } from "../../style/styled";
 
 export default function CriarContas() {
   return (
-    <main>
         <HomeCriarConta>
+          <main>
         <div className="cadastro-container">
         <h1>Cadastre-se e conheça a nossa plataforma</h1>
         <div className="no-account-container">
@@ -41,7 +41,7 @@ export default function CriarContas() {
           <button type="submit" className="submit" id="buttonSubmit">Enviar</button>
         </form>
       </div>
+      </main>
     </HomeCriarConta>
-    </main>
   )
 }
